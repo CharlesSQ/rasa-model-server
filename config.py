@@ -2,7 +2,7 @@ from os import environ
 from flask import Flask
 
 models_dir = environ.get('MODELS_DIR', 'models')
-server_port = environ.get('PORT', 8080)
+server_port = environ.get('PORT', 5001)
 
 
 UPLOAD_FOLDER = 'models/'
