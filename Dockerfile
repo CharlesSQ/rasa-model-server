@@ -1,6 +1,5 @@
-FROM python:3-alpine
-
-MAINTAINER Victor Rachieru
+# FROM python:3-alpine
+FROM python:3.8.14-alpine
 
 WORKDIR /app
 COPY . .
